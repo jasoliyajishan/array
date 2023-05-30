@@ -1,22 +1,12 @@
 #include<stdio.h>
 
- main() 
- {
-   int i, a[100], n;
+main()
 
-   printf("\nEnter no of elements :");
-   scanf("%d", &n);
-
-   printf("\nEnter the values :");
-   for (i = 0; i < n; i++)
+{
+	char ch='a';
+	while(ch<='z')
     {
-      scanf("%d", &a[i]);
-   }
-
-   for (i = 0; i < n; i++) 
-   {
-      printf("\na[%d] = %d", i, a[i]);
-   }
- 
-
+    printf("%c",ch)	;
+    ch++;
+	}	
 }
