@@ -2,20 +2,21 @@
 
  main() 
  {
-   int i, a[100], num;
+   int i, a[100], n;
 
    printf("\nEnter no of elements :");
-   scanf("%d", &num);
+   scanf("%d", &n);
 
    printf("\nEnter the values :");
-   for (i = 0; i < num; i++)
+   for (i = 0; i < n; i++)
     {
       scanf("%d", &a[i]);
    }
 
-   for (i = 0; i < num; i++) 
+   for (i = 0; i < n; i++) 
    {
       printf("\na[%d] = %d", i, a[i]);
    }
+ 
 
 }
